@@ -1,1 +1,181 @@
-style.css
+html, body {
+	background-color: #2a2a2b;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	min-width: 320px;
+	font-size: 18px;
+	 padding: 0px 0;
+}
+
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+   flex-direction: column;
+}
+
+.container * {
+  box-sizing: border-box;
+}
+
+
+
+#form-outer {
+	background: #537978;
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	padding: 20px;
+}
+
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 750px;
+  margin: 0 auto;
+/*  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;*/
+
+}
+
+.flex-outer li {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.flex-outer li label, .flex-outer li p {
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    flex: 1 0 120px;
+    max-width: 120px;
+}
+
+.flex-outer > li > label + *, .flex-inner {
+    flex: 1 0 220px;
+}
+
+.flex-outer li input:not([type='checkbox']), .flex-outer li textarea {
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+
+}
+
+.flex-outer > li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.dropdown {
+	height: 55px;
+    font-size: 20px;
+}
+
+.flex-outer li:nth-child(5) label{
+/*	text-transform: none;
+*/	max-width: 430px;
+	display: inline;
+
+}
+
+.flex-outer li:nth-child(7) label{
+/*	text-transform: none;
+*/	max-width: 460px;
+	display: inline;
+
+}
+
+.flex-outer li:nth-child(8) label {
+    /* text-transform: none; */
+    max-width: 460px;
+    display: flex;
+}
+
+.inner-flex {
+	display: flex;
+	flex-wrap:wrap;
+}
+.inner-flex li{
+	    padding: 0 30px;
+	    text-transform: none;
+}
+
+.inner-flex li label{
+	    padding: 0px 50px;
+	    text-transform: none;
+	    display: inherit;
+}
+
+.comments {
+	    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments label{
+	padding: 10px 0;
+
+}
+
+
+#comments{
+	
+    width: 100%;
+    height: 160px;
+    resize: vertical;
+
+}
+
+#submit {
+  background-color: #2a2a2b;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+@media all and(max-width: 700px){
+	.inner-flex.radio{
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
