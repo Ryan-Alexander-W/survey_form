@@ -4,7 +4,7 @@ html, body {
 	margin: 0 auto;
 	color: white;
 	min-width: 320px;
-	font-size: 18px;
+	font-size: 15px;
 	 padding: 0px 0;
 }
 
@@ -105,7 +105,7 @@ p {
 
 .flex-outer li:nth-child(7) label{
 /*	text-transform: none;
-*/	max-width: 460px;
+*/	max-width: 300px;
 	display: inline;
 
 }
@@ -113,7 +113,7 @@ p {
 .flex-outer li:nth-child(8) label {
     /* text-transform: none; */
     max-width: 460px;
-    display: flex;
+    display: inline;
 }
 
 .inner-flex {
